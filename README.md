@@ -1,0 +1,2 @@
+# TheoreticalAnalysis
+In our previous work, we use the B+ tree as in-memory index structure to manage massive secret keys in Hadoop Distributed File System (HDFS). Within a system of more querying than modifying, the efficiency largely depends on the query efficiency of B+ tree, i.e. the matching times between the target key name and names in nodes. In the previous paper, we propose the theoretical analysis of matching times during query keys, but the verification process was omitted due to page limitation. Here we present the complete analysis.
